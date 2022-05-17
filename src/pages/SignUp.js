@@ -53,6 +53,7 @@ const SignUp = () => {
       navigate('/');
 
     } catch (error) {
+      setLoading(false);
         toast.error("Something Went wrong with registration!!")
     }
   }
